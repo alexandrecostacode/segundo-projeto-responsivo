@@ -15,11 +15,19 @@ git config --global user.name -> Aqui, localiza o seu nome de usuário GitHub co
 
 git config --list -> Serve para listar sua conta e seu nome de usuário Github no terminal do Vs Code.
 
-clean - > Limpa o terminal.
+clear - > Limpa o terminal.
+
+git init -> (Obs: TODA VEZ QUE SUBIR UM NOVO PROJETO NO GITHUB, INCIAR O COMANDO COM git init no terminal.)
+    O git init serve para inicializar um novo repositório Git em um diretório, 
+    ou seja, transforma uma pasta existente em um projeto rastreável pelo Git. 
+    Ele cria uma subpasta oculta chamada .git que armazena todo o histórico de versões, 
+    commits e metadados necessários para o controle de versão.
+
+git remote add origin https://github.com/alexandrecostacode/meu_repositorio.git -> Serve para
+    dizer ao terminal do VS Code, para aonde você mandará os arquivos do projeto. 
+    Finalizando, sempre no final do endereço com .git  
 
 git pull -> puxa as atualizações do GITHUB para o VS Code.
-
-git push -> Manda o que foi feito para o GITHUB
 
 git status -> Mostra os arquivos que foram modificados.
  
@@ -27,10 +35,11 @@ git add <nome do arquivo ex:index.html> -> Adicio o arquivo modificado, para a �
  Obs:A área de stage (ou staging area) no Git é uma área intermediária onde você seleciona 
  as alterações de arquivos que deseja incluir no próximo commit.
  
- git commit -m"Escreva um comentário entre aspas" -> git commit -m"comentário" é para preparar,
+git commit -m"Escreva um comentário entre aspas" -> git commit -m"comentário" é para preparar,
  o arquivo com comentário antes de subir/mandar para o GITHUB.
 
- git push -> Envia o arquivo modificado para o GITHUB.
+git push -> Envia o arquivo modificado para o GITHUB.
 
- git add . -> Manda mais de um arquivo modificado para o stage. 
+git add . -> Manda mais de um arquivo modificado para o stage. 
+ 
 */
